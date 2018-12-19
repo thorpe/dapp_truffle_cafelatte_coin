@@ -14,6 +14,12 @@ npm install
 npm install --save-dev dotenv truffle-wallet-provider ethereumjs-wallet
  ```
 
+2. .env created on root directory. 
+```
+ROPSTEN_PRIVATE_KEY="YourPrivateKeyHere"
+MAINNET_PRIVATE_KEY="YourPrivateKeyHere"
+``` 
+
 2. Compile and migrate the smart contracts. Note inside the development console we don't preface commands with `truffle`.
 ```javascript
 truffle compile
